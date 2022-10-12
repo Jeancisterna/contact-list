@@ -37,7 +37,6 @@ function eliminarContacos(contacto){
 agregarContactos();
 
 
-/*contactos = prompt("ingresar contacto a elminiar");
-eliminarContacos(contactos);*/
+
 
 
