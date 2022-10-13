@@ -1,7 +1,7 @@
 
 
 let contactos = [];
-
+// funcion para poder crear contactos
 function agregarContactos(){
 const contacto ={};
 contacto.id = prompt("ingresa id");
@@ -15,11 +15,12 @@ contacto.direccion = prompt("ingresa direccion");
 contactos.push(contacto);
 return contactos;
 }
+// funcion para poder eliminar contactos
 function eliminarContactos(id){
     contactos = contactos.filter(x => x.id != id);
     return contactos;
 }
-
+// funcion para poder actualizar contactos
  function actualizarContactos(){
     const contacto ={};
 
